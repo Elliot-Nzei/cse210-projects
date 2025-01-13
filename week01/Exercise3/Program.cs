@@ -9,7 +9,7 @@ class Program
 
         do
         {
-            Console.WriteLine("Enter the magic number (1-100): ");
+            Console.Write("Enter the magic number (1-100): ");
             magicNumber = int.Parse(Console.ReadLine());
 
             if (magicNumber < 1 || magicNumber > 100)
@@ -22,7 +22,7 @@ class Program
         {
             do
             {
-                Console.WriteLine("Enter your guess (1-100): ");
+                Console.Write("Enter your guess (1-100): ");
                 guessNumber = int.Parse(Console.ReadLine());
 
                 if (guessNumber < 1 || guessNumber > 100)
